@@ -1,30 +1,18 @@
-# React + TypeScript + Vite
+# Gamehub Website (Written in React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://react-game-hub-dusky.vercel.app/  <--- check it out here!!!
 
-Currently, two official plugins are available:
+My hands on result from learning Typescript, React, and web development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This was a really fun project, even despite all the learning pains. UI design, API request, hooks/states, deployment, and how to organize a project without collapsing from exhaustion. Very cool would recommend :+1:
 
-## Expanding the ESLint configuration
+(If you get a network error please try refreshing the page. If that doesn't work then I've run out of api request.)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Credit to all the tools used
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React - v18.3
+- Vite - v5.3.5
+- Axios - v1.7
+- React-Icons - v5.2
+- ChakraUI - v2.8
+- Vercel - the hobby plan, idk what else to say.
